@@ -36,9 +36,15 @@ Thus or final result may be looking like this , <i>for our referal we have mainl
 <p>1.Since the whole dataset has to be considered which involves a very high amount of computational complexity.</p>
 <p>2.Chosing the learning rate remains another challenge in front of us because of two main reason :-</p>
 <p><b>i.)</b>  If it is too small, then the model will take some time to learn.</p>
-
+<h4>Slow Convergence</h4>
+<p align="center">
+  <img src="https://github.com/Nilotpal1998/Optimization-Algorithms/blob/main/Gradient%20Descent/gradient_images/slow_convergence.png" width="550" title="Update Rule">
+</p>
 <p><b>ii.)</b>  If it is too large, model will converge as our pointer will shoot and we’ll not be able to get to minima.</p>
-
+<h4>Overshoot</h4>
+<p align="center">
+  <img src="https://github.com/Nilotpal1998/Optimization-Algorithms/blob/main/Gradient%20Descent/gradient_images/overshoot.png" width="550" title="Update Rule">
+</p>
 <p>3.A learning rate that is too low will lead to slow training and a higher learning rate will lead to overshooting of slope</p>
 <p>Another key hurdle faced by Vanilla Gradient Descent is it avoid getting trapped in local minima; these local minimas are surrounded by hills of same error, which makes it really hard for vanilla Gradient Descent to escape it.</p>
 <p>Thus there are many scopes of improvements and adjustments in this algoritm which will be explored in the coming contents of this very repository.</p>
