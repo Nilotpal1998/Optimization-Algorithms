@@ -3,3 +3,5 @@
 <p>1.For any unimodal funtion we find the extremum lying within the interval .</p>
 <p>2.For multimodal data we will be able to find any one of the extremum lying within the interval.</p>
 <p>This mainly itteratively narrows down the interval in which the extremum lies and due to this phenomenon the algorithm becomes very slow but the process becomes acutely robust.</p>
+<p>Now , the main aim will be to select the probes which will drive us to the optimum interval level.Thus we will be going for our <b>probe selection</b>.We can go for the codes for our probe selection. </p>
+<h3>Visualisation Of The Function</h3>
