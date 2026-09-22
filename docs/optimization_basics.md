@@ -27,10 +27,11 @@ The objective function specifies what we want to minimize. The constraints defin
 A vector $x$ is called a **feasible solution** if it satisfies all the constraints:
 
 $$
-f_i(x)\leq b_i, \qquad i=1,\ldots,m.
+f_i(x) \leq b_i,
+\qquad i = 1,\ldots,m.
 $$
 
-The set of all feasible solutions is called the **feasible region** or **feasible set**:
+The set of all feasible solutions is called the **feasible region** or **feasible set**.
 
 $$
 \mathcal{F}
@@ -38,7 +39,7 @@ $$
 \left\{
 x \in \mathbb{R}^n
 \;\middle|\;
-f_i(x) \leq b_i,\quad i=1,\ldots,m
+f_i(x) \leq b_i,\quad i = 1,\ldots,m
 \right\}.
 $$
 
