@@ -324,7 +324,7 @@ Common loss functions include:
 ### Mean Squared Error
 
 $$
-\operatorname{MSE} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2.
+\text{MSE} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
 $$
 
 ### Mean Absolute Error
