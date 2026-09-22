@@ -272,9 +272,7 @@ $$
 Equivalently,
 
 $$
-f(\beta)
-=
-(X\beta-y)^T(X\beta-y).
+f(\beta) = (X\beta - y)^T(X\beta - y).
 $$
 
 The optimization problem is
