@@ -218,6 +218,7 @@ A quadratic objective function can be written as
 $$
 f(x) = \frac{1}{2}x^T Q x + c^T x + d,
 $$
+
 where
 
 * \(Q\) is an \(n\times n\) matrix,
