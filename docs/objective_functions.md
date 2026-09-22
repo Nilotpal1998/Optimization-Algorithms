@@ -348,45 +348,37 @@ An objective function can include a **regularization term** to discourage undesi
 A general regularized objective has the form
 
 $$
-\min_x
-\quad
-f(x)+\lambda R(x),
+\min_x \quad f(x) + \lambda R(x),
 $$
 
 where
 
-* \(f(x)\) is the original loss,
-* \(R(x)\) is the regularization function,
-* \(\lambda\geq0\) controls the strength of regularization.
+* $f(x)$ is the original loss,
+* $R(x)$ is the regularization function,
+* $\lambda \geq 0$ controls the strength of regularization.
 
 ### L2 Regularization
 
 $$
-R(x)=\|x\|_2^2.
+R(x) = \|x\|_2^2.
 $$
 
 Therefore,
 
 $$
-\min_x
-\quad
-f(x)+\lambda\|x\|_2^2.
+\min_x \quad f(x) + \lambda \|x\|_2^2.
 $$
 
 ### L1 Regularization
 
 $$
-R(x)=\|x\|_1
-=
-\sum_i|x_i|.
+R(x) = \|x\|_1 = \sum_i |x_i|.
 $$
 
 Therefore,
 
 $$
-\min_x
-\quad
-f(x)+\lambda\|x\|_1.
+\min_x \quad f(x) + \lambda \|x\|_1.
 $$
 
 L1 regularization can encourage sparse solutions, while L2 regularization generally penalizes large parameter magnitudes.
