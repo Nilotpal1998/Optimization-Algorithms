@@ -693,18 +693,10 @@ Instead of a single solution that simultaneously minimizes every objective, such
 A common scalarization approach is the weighted objective:
 
 $$
-F(x)
-=
-\lambda_1f_1(x)
-+
-\lambda_2f_2(x),
+F(x) = \lambda_1 f_1(x) + \lambda_2 f_2(x),
 $$
 
-where
-
-$$
-\lambda_1,\lambda_2\geq0.
-$$
+where $\lambda_1, \lambda_2 \geq 0$.
 
 Multi-objective optimization is discussed separately in the repository's multi-objective optimization section.
 
@@ -742,14 +734,10 @@ The second term penalizes violations of the constraint.
 More generally,
 
 $$
-F(x)
-=
-f(x)
-+
-\lambda P(x),
+F(x) = f(x) + \lambda P(x),
 $$
 
-where \(P(x)\) measures constraint violations.
+where $P(x)$ measures constraint violations.
 
 Penalty and augmented-objective methods are important in constrained optimization.
 
