@@ -31,7 +31,7 @@ f_i(x) \leq b_i,
 \qquad i = 1,\ldots,m.
 $$
 
-The set of all feasible solutions is called the **feasible region** or **feasible set**.
+The set of all feasible solutions is called the **feasible region** or **feasible set**:
 
 $$
 \mathcal{F}
