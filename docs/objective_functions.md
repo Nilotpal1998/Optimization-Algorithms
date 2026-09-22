@@ -47,10 +47,7 @@ then \(x_1\) is preferred over \(x_2\) in a minimization problem, provided both 
 
 For a maximization problem,
 
-$$
-\underset{x}{\operatorname{maximize}}
-\quad f_0(x),
-$$
+$$ \max_{x} \quad f_0(x), $$
 
 the solution with the larger objective value is preferred.
 
