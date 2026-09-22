@@ -33,9 +33,7 @@ $$
 
 The set of all feasible solutions is called the **feasible region** or **feasible set**:
 
-$$
-\mathcal{F}
-=
+$$ \mathcal{F}=
 \left\{
 x \in \mathbb{R}^n
 \;\middle|\;
