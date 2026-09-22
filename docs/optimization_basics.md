@@ -33,7 +33,10 @@ $$
 
 The set of all feasible solutions is called the **feasible region** or **feasible set**:
 
-$$ \mathcal{F} $$
+$$ \mathcal{F} = $$
+
+
+
 
 The optimization problem can therefore be viewed as finding the point within $\mathcal{F}$ that produces the smallest value of the objective function.
 
