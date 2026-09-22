@@ -16,18 +16,18 @@ $$
 
 Here,
 
-* \(x=(x_1,\ldots,x_n)\in\mathbb{R}^n\) is the **optimization variable** or **decision vector**.
-* \(f_0:\mathbb{R}^n\rightarrow\mathbb{R}\) is the **objective function**.
-* \(f_i:\mathbb{R}^n\rightarrow\mathbb{R}\), \(i=1,\ldots,m\), are the **inequality constraint functions**.
-* \(b_i\in\mathbb{R}\) represents the corresponding **constraint bound**.
+* $x=(x_1,\ldots,x_n)\in\mathbb{R}^n$ is the **optimization variable** or **decision vector**.
+* $f_0:\mathbb{R}^n\rightarrow\mathbb{R}$ is the **objective function**.
+* $f_i:\mathbb{R}^n\rightarrow\mathbb{R}$, $i=1,\ldots,m$, are the **inequality constraint functions**.
+* $b_i\in\mathbb{R}$ represents the corresponding **constraint bound**.
 
-The objective function specifies what we want to minimize. The constraints define which values of \(x\) are permissible.
+The objective function specifies what we want to minimize. The constraints define which values of $x$ are permissible.
 
 ---
 
 ## Feasible Solutions
 
-A vector \(x\) is called a **feasible solution** if it satisfies all the constraints:
+A vector $x$ is called a **feasible solution** if it satisfies all the constraints:
 
 $$
 f_i(x)\leq b_i,
@@ -47,13 +47,13 @@ i=1,\ldots,m
 \right\}.
 $$
 
-The optimization problem can therefore be viewed as finding the point within \(\mathcal{F}\) that produces the smallest value of the objective function.
+The optimization problem can therefore be viewed as finding the point within $\mathcal{F}$ that produces the smallest value of the objective function.
 
 ---
 
 ## Optimal Solution
 
-A feasible vector \(x^\star\) is called an **optimal solution** if its objective value is no greater than that of any other feasible vector.
+A feasible vector $x^\star$ is called an **optimal solution** if its objective value is no greater than that of any other feasible vector.
 
 Formally,
 
@@ -61,7 +61,7 @@ $$
 f_0(x^\star)\leq f_0(z)
 $$
 
-for every \(z\in\mathcal{F}\).
+for every $z\in\mathcal{F}$.
 
 Thus,
 
@@ -80,7 +80,7 @@ $$
 
 is called the **optimal objective value**.
 
-The notation \(x^\star\) is commonly used throughout optimization literature to denote an optimal solution.
+The notation $x^\star$ is commonly used throughout optimization literature to denote an optimal solution.
 
 ---
 
@@ -124,7 +124,7 @@ $$
 \min_w \quad w^T\Sigma w,
 $$
 
-where \(w\) represents portfolio weights and \(\Sigma\) represents the covariance matrix of asset returns.
+where $w$ represents portfolio weights and $\Sigma$ represents the covariance matrix of asset returns.
 
 ---
 
@@ -177,21 +177,21 @@ Equality constraints are particularly important in methods such as **Lagrange mu
 
 An optimization problem may contain multiple locally optimal points.
 
-A point \(x^\star\) is a **global minimum** if
+A point $x^\star$ is a **global minimum** if
 
 $$
 f(x^\star)\leq f(x)
 $$
 
-for every feasible \(x\).
+for every feasible $x$.
 
-A point \(x^\star\) is a **local minimum** if there exists a neighborhood around \(x^\star\) such that
+A point $x^\star$ is a **local minimum** if there exists a neighborhood around $x^\star$ such that
 
 $$
 f(x^\star)\leq f(x)
 $$
 
-for all feasible \(x\) within that neighborhood.
+for all feasible $x$ within that neighborhood.
 
 A global minimum is therefore optimal over the entire feasible region, whereas a local minimum is optimal only within a neighborhood.
 
@@ -215,7 +215,7 @@ f(\alpha x+\beta y)
 \alpha f(x)+\beta f(y)
 $$
 
-for all \(x,y\in\mathbb{R}^n\) and scalars \(\alpha,\beta\).
+for all $x,y\in\mathbb{R}^n$ and scalars $\alpha,\beta$.
 
 A standard linear program can be written as
 
@@ -258,7 +258,7 @@ is a nonlinear constraint.
 
 Another fundamental classification is based on **convexity**.
 
-A function \(f\) is convex if
+A function $f$ is convex if
 
 $$
 f(\alpha x+(1-\alpha)y)
@@ -266,7 +266,7 @@ f(\alpha x+(1-\alpha)y)
 \alpha f(x)+(1-\alpha)f(y)
 $$
 
-for all \(x,y\) in its domain and \(0\leq\alpha\leq1\).
+for all $x,y$ in its domain and $0\leq\alpha\leq1$.
 
 For a convex optimization problem, under appropriate conditions, every local minimum is also a global minimum. This property makes convex optimization particularly important because it provides strong theoretical guarantees for optimization algorithms.
 
@@ -416,18 +416,20 @@ Different optimization algorithms exploit different properties of this formulati
 
 The major classifications introduced in this section can be summarized as:
 
-| Classification         | Categories                                   |
-| ---------------------- | -------------------------------------------- |
-| Objective              | Minimization / Maximization                  |
-| Constraints            | Unconstrained / Constrained                  |
-| Function structure     | Linear / Nonlinear                           |
-| Convexity              | Convex / Non-convex                          |
-| Variables              | Continuous / Discrete / Mixed-integer        |
-| Search mechanism       | Deterministic / Stochastic                   |
-| Derivative information | First-order / Second-order / Derivative-free |
-| Number of objectives   | Single-objective / Multi-objective           |
+| Classification | Categories |
+| :--- | :--- |
+| **Objective** | Minimization / Maximization |
+| **Constraints** | Unconstrained / Constrained |
+| **Function structure** | Linear / Nonlinear |
+| **Convexity** | Convex / Non-convex |
+| **Variables** | Continuous / Discrete / Mixed-integer |
+| **Search mechanism** | Deterministic / Stochastic |
+| **Derivative information** | First-order / Second-order / Derivative-free |
+| **Number of objectives** | Single-objective / Multi-objective |
 
 Understanding these classifications is important because the structure of an optimization problem strongly influences the algorithms that can be applied to it, the guarantees that can be obtained, and the computational resources required.
+
+---
 
 ## Next
 
