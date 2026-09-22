@@ -228,10 +228,9 @@ where
 A common example is
 
 $$
-f(x_1,x_2)
-=
-x_1^2+2x_2^2.
+f(x_1, x_2) = x_1^2 + 2x_2^2.
 $$
+
 
 Quadratic objectives are important in:
 
