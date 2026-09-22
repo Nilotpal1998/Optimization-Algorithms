@@ -33,7 +33,7 @@ $$
 
 The set of all feasible solutions is called the **feasible region** or **feasible set**:
 
-$$ \mathcal{F} = \{ x \in \mathbb{R}^n \; f_i(x) \leq b_i,\quad i = 1,\ldots,m\}$$
+$$ \mathcal{F} = \left\{ x \in \mathbb{R}^n \; f_i(x) \leq b_i,\quad i = 1,\ldots,m \right\}$$
 
 
 
