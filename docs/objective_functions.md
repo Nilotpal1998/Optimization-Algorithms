@@ -266,9 +266,7 @@ One of the most common objectives in statistics and machine learning is the **le
 Given observations \(y\), design matrix \(X\), and parameter vector \(\beta\),
 
 $$
-f(\beta)
-=
-\|X\beta-y\|_2^2.
+f(\beta) = \|X\beta - y\|_2^2.
 $$
 
 Equivalently,
