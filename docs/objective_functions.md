@@ -613,27 +613,7 @@ This is the fundamental principle behind Gradient Descent.
 For a twice-differentiable objective, the Hessian is the matrix of second-order partial derivatives:
 
 $$
-\nabla^2 f(x)
-=
-\begin{bmatrix}
-\frac{\partial^2f}{\partial x_1^2}
-&
-\cdots
-&
-\frac{\partial^2f}{\partial x_1\partial x_n}
-\\
-\vdots
-&
-\ddots
-&
-\vdots
-\\
-\frac{\partial^2f}{\partial x_n\partial x_1}
-&
-\cdots
-&
-\frac{\partial^2f}{\partial x_n^2}
-\end{bmatrix}.
+\nabla^2 f(x) = \begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\ \vdots & \ddots & \vdots \\ \frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2} \end{bmatrix}.
 $$
 
 The Hessian describes local curvature.
