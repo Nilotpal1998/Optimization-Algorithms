@@ -330,7 +330,7 @@ $$
 ### Mean Absolute Error
 
 $$
-\operatorname{MAE} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|.
+\text{MAE} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|.
 $$
 
 ### Binary Cross-Entropy
