@@ -400,7 +400,3 @@ The major classifications introduced in this section can be summarized as:
 Understanding these classifications is important because the structure of an optimization problem strongly influences the algorithms that can be applied to it, the guarantees that can be obtained, and the computational resources required.
 
 ---
-
-## Next
-
-The next section introduces the mathematical concepts required to analyze optimization algorithms, including **gradients, Hessians, directional derivatives, convexity, and stationary points**.
