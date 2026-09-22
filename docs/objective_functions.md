@@ -303,19 +303,15 @@ In machine learning, the objective function is often called a **loss function**,
 For a dataset containing \(N\) observations, a general empirical loss can be written as
 
 $$
-L(\theta)
-=
-\frac{1}{N}
-\sum_{i=1}^{N}
-\ell(y_i,\hat{y}_i),
+L(\theta) = \frac{1}{N} \sum_{i=1}^{N} \ell(y_i, \hat{y}_i),
 $$
 
 where
 
-* \(y_i\) is the observed target,
-* \(\hat{y}_i\) is the model prediction,
-* \(\theta\) represents model parameters,
-* \(\ell\) is the individual sample loss.
+* $y_i$ is the observed target,
+* $\hat{y}_i$ is the model prediction,
+* $\theta$ represents model parameters,
+* $\ell$ is the individual sample loss.
 
 The optimization problem becomes
 
