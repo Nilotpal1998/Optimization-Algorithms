@@ -54,9 +54,9 @@ the solution with the larger objective value is preferred.
 A maximization problem can equivalently be expressed as a minimization problem:
 
 $$
-\underset{x}{\operatorname{maximize}}\; f(x)
+\max_{x}\; f(x)
 \quad\Longleftrightarrow\quad
-\underset{x}{\operatorname{minimize}}\; -f(x).
+\min_{x}\; -f(x).
 $$
 
 ---
