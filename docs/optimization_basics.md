@@ -6,11 +6,8 @@ A general mathematical optimization problem can be written as
 
 $$
 \begin{aligned}
-\underset{x}{\operatorname{minimize}}
-\quad & f_0(x) \\
-\text{subject to}
-\quad & f_i(x) \leq b_i,
-\qquad i=1,\ldots,m.
+\min_{x} \quad & f_0(x) \\
+\text{subject to} \quad & f_i(x) \leq b_i, \qquad i=1,\ldots,m.
 \end{aligned}
 $$
 
