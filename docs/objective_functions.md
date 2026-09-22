@@ -556,7 +556,7 @@ The geometry of the objective function determines how an optimization algorithm 
 Consider the two-dimensional function
 
 $$
-f(x_1,x_2)=x_1^2+x_2^2.
+f(x_1, x_2) = x_1^2 + x_2^2.
 $$
 
 Its contours are concentric circles centered at the global minimum.
@@ -564,11 +564,7 @@ Its contours are concentric circles centered at the global minimum.
 A more complicated function such as the Rosenbrock function,
 
 $$
-f(x,y)
-=
-(1-x)^2
-+
-100(y-x^2)^2,
+f(x, y) = (1 - x)^2 + 100(y - x^2)^2,
 $$
 
 contains a narrow curved valley.
