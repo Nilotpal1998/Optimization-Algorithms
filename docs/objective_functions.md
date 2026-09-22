@@ -585,20 +585,13 @@ For example:
 For a differentiable objective
 
 $$
-f:\mathbb{R}^n\rightarrow\mathbb{R},
+f: \mathbb{R}^n \rightarrow \mathbb{R},
 $$
 
 the gradient is
 
 $$
-\nabla f(x)
-=
-\begin{bmatrix}
-\frac{\partial f}{\partial x_1}\\
-\frac{\partial f}{\partial x_2}\\
-\vdots\\
-\frac{\partial f}{\partial x_n}
-\end{bmatrix}.
+\nabla f(x) = \begin{bmatrix} \frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n} \end{bmatrix}.
 $$
 
 The gradient points in the direction of steepest local increase of the objective.
