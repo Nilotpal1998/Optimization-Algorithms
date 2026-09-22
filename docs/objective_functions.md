@@ -643,15 +643,13 @@ The numerical scale of an objective function can affect optimization.
 Suppose
 
 $$
-f(x)=10^6g(x).
+f(x) = 10^6 g(x).
 $$
 
 The minimizer is unchanged because multiplying the objective by a positive constant does not change the location of its optimum:
 
 $$
-\operatorname{arg\,min}_x f(x)
-=
-\operatorname{arg\,min}_x g(x).
+\arg\min_x f(x) = \arg\min_x g(x).
 $$
 
 However, the magnitude of gradients and other numerical quantities changes:
