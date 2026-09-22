@@ -116,12 +116,7 @@ The optimization algorithm searches for a value of \(x\) that minimizes or maxim
 A minimization problem has the form
 
 $$
-\boxed{
-x^\star
-=
-\underset{x\in\mathcal{F}}{\operatorname{arg\,min}}
-\;f(x)
-}
+\boxed{x^\star = \arg\min\limits_{x\in\mathcal{F}} f(x)}
 $$
 
 where \(\mathcal{F}\) denotes the feasible set.
@@ -153,12 +148,7 @@ Typical quantities formulated as minimization objectives include:
 A maximization problem is written as
 
 $$
-\boxed{
-x^\star
-=
-\underset{x\in\mathcal{F}}{\operatorname{arg\,max}}
-\;f(x)
-}
+\boxed{x^\star = \arg\max\limits_{x\in\mathcal{F}} f(x)}
 $$
 
 with
