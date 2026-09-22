@@ -119,7 +119,7 @@ $$
 \boxed{x^\star = \arg\min\limits_{x\in\mathcal{F}} f(x)}
 $$
 
-where \(\mathcal{F}\) denotes the feasible set.
+where mathcal{F} denotes the feasible set.
 
 The optimal solution satisfies
 
