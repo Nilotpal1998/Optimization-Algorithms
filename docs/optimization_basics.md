@@ -27,21 +27,13 @@ The objective function specifies what we want to minimize. The constraints defin
 A vector $x$ is called a **feasible solution** if it satisfies all the constraints:
 
 $$
-f_i(x)\leq b_i,
-\qquad i=1,\ldots,m.
+f_i(x)\leq b_i, \qquad i=1,\ldots,m.
 $$
 
 The set of all feasible solutions is called the **feasible region** or **feasible set**:
 
 $$
-\mathcal{F}
-=
-\left\{
-x\in\mathbb{R}^n
-\mid
-f_i(x)\leq b_i,\;
-i=1,\ldots,m
-\right\}.
+\mathcal{F} = \left\{ x\in\mathbb{R}^n \mid f_i(x)\leq b_i,\; i=1,\ldots,m \right\}.
 $$
 
 The optimization problem can therefore be viewed as finding the point within $\mathcal{F}$ that produces the smallest value of the objective function.
@@ -63,10 +55,7 @@ for every $z\in\mathcal{F}$.
 Thus,
 
 $$
-x^\star
-=
-\underset{x\in\mathcal{F}}{\operatorname{arg\,min}}
-\;f_0(x).
+x^\star = \arg\min_{x\in\mathcal{F}} f_0(x).
 $$
 
 The corresponding value
@@ -88,13 +77,13 @@ Although optimization problems are frequently written as minimization problems, 
 A maximization problem
 
 $$
-\underset{x}{\operatorname{maximize}}\quad f(x)
+\max_{x} \quad f(x)
 $$
 
 is equivalent to
 
 $$
-\underset{x}{\operatorname{minimize}}\quad -f(x).
+\min_{x} \quad -f(x).
 $$
 
 Therefore, many optimization algorithms are formulated only for minimization, with maximization handled by changing the sign of the objective function.
@@ -148,21 +137,16 @@ $$
 Optimization problems may also contain equality constraints:
 
 $$
-h_j(x)=c_j,
-\qquad j=1,\ldots,p.
+h_j(x)=c_j, \qquad j=1,\ldots,p.
 $$
 
 A general constrained optimization problem can therefore be written as
 
 $$
 \begin{aligned}
-\underset{x}{\operatorname{minimize}}
-\quad & f_0(x)\\
-\text{subject to}
-\quad & f_i(x)\leq b_i,
-\qquad i=1,\ldots,m,\\
-& h_j(x)=c_j,
-\qquad j=1,\ldots,p.
+\min_{x} \quad & f_0(x)\\
+\text{subject to} \quad & f_i(x)\leq b_i, \qquad i=1,\ldots,m,\\
+& h_j(x)=c_j, \qquad j=1,\ldots,p.
 \end{aligned}
 $$
 
@@ -207,9 +191,7 @@ An optimization problem is called a **linear program (LP)** when the objective f
 A linear function satisfies
 
 $$
-f(\alpha x+\beta y)
-=
-\alpha f(x)+\beta f(y)
+f(\alpha x+\beta y) = \alpha f(x)+\beta f(y)
 $$
 
 for all $x,y\in\mathbb{R}^n$ and scalars $\alpha,\beta$.
@@ -218,10 +200,8 @@ A standard linear program can be written as
 
 $$
 \begin{aligned}
-\underset{x}{\operatorname{minimize}}
-\quad & c^Tx\\
-\text{subject to}
-\quad & Ax\leq b.
+\min_{x} \quad & c^Tx\\
+\text{subject to} \quad & Ax\leq b.
 \end{aligned}
 $$
 
@@ -234,9 +214,7 @@ If the objective or one or more constraints are nonlinear, the problem is genera
 For example,
 
 $$
-\underset{x}{\operatorname{minimize}}
-\quad
-x^2+e^x
+\min_{x} \quad x^2+e^x
 $$
 
 is nonlinear because the objective contains nonlinear terms.
@@ -258,9 +236,7 @@ Another fundamental classification is based on **convexity**.
 A function $f$ is convex if
 
 $$
-f(\alpha x+(1-\alpha)y)
-\leq
-\alpha f(x)+(1-\alpha)f(y)
+f(\alpha x+(1-\alpha)y) \leq \alpha f(x)+(1-\alpha)f(y)
 $$
 
 for all $x,y$ in its domain and $0\leq\alpha\leq1$.
@@ -390,17 +366,11 @@ Derivative-free methods can be useful when the objective function is noisy, disc
 For reference, a broad form of a constrained optimization problem is
 
 $$
-\boxed{
 \begin{aligned}
-\underset{x\in\mathbb{R}^n}{\operatorname{minimize}}
-\quad & f_0(x)\\
-\text{subject to}
-\quad & f_i(x)\leq b_i,
-\qquad i=1,\ldots,m,\\
-& h_j(x)=c_j,
-\qquad j=1,\ldots,p.
+\min_{x\in\mathbb{R}^n} \quad & f_0(x)\\
+\text{subject to} \quad & f_i(x)\leq b_i, \qquad i=1,\ldots,m,\\
+& h_j(x)=c_j, \qquad j=1,\ldots,p.
 \end{aligned}
-}
 $$
 
 This formulation provides a common mathematical framework for a large class of optimization problems.
