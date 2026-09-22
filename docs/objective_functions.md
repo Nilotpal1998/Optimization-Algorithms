@@ -4,7 +4,7 @@ The **objective function** is the mathematical function that defines what an opt
 
 For an optimization problem
 
-$$ \underset{x}{\operatorname{minimize}} \quad f_0(x), $$
+$$ \min_{x} \quad f_0(x), $$
 
 the function
 
