@@ -43,7 +43,7 @@ $$
 f_0(x_1)<f_0(x_2),
 $$
 
-then \(x_1\) is preferred over \(x_2\) in a minimization problem, provided both are feasible.
+then $$\(x_1\)$$ is preferred over $$\(x_2\)$$ in a minimization problem, provided both are feasible.
 
 For a maximization problem,
 
