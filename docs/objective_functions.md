@@ -324,35 +324,19 @@ Common loss functions include:
 ### Mean Squared Error
 
 $$
-\operatorname{MSE}
-=
-\frac{1}{N}
-\sum_{i=1}^{N}
-(y_i-\hat{y}_i)^2.
+\operatorname{MSE} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2.
 $$
 
 ### Mean Absolute Error
 
 $$
-\operatorname{MAE}
-=
-\frac{1}{N}
-\sum_{i=1}^{N}
-|y_i-\hat{y}_i|.
+\operatorname{MAE} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|.
 $$
 
 ### Binary Cross-Entropy
 
 $$
-L
-=
--\frac{1}{N}
-\sum_{i=1}^{N}
-\left[
-y_i\log(\hat{y}_i)
-+
-(1-y_i)\log(1-\hat{y}_i)
-\right].
+L = -\frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right].
 $$
 
 ---
